@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+.container{
+    border-radius: 0% 42% 59% 40% / 10% 57% 42% 0% ;
+    background-color: green;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 60vw;
+
+}
+.yellow-container{
+    border-radius: 0% 53% 59% 42% / 10% 27% 76% 0%;
+    width: 60vw;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: yellow;
+}
+.bigger-div{
+    background-image: url(../img/slide-1-bg.jpg);
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 20em;
+    /* height: 0em; */
+    z-index: 1;
+    position: absolute;
+    top: 3em;
+    list-style-type: none;
+    color: white;
+    font-size: 1.3em;
+    right: 5em;
+}
+span{
+    position: absolute;
+    top: 0.3em;
+    left: 1.3em;
+    color: black;
+}
+h1, p{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+h1{
+    top: 3em;
+    width: 10em;
+    margin-left: 3em;
+    font-size: 3em;
+    text-align: left;
+}
+p{
+    top: 14em;
+    width: 24em;
+    font-size: 1.5em;
+    margin-left: 6em;
+    text-align: left;
+}
+.img{
+    position: absolute;
+    top: 7em;
+    z-index: 1;
+    right: 11em;
+}
+form{    
+    position: absolute;
+    top: 29em;
+    z-index: 1;
+    width: 31em;
+    left: 8em;
+    display: flex;
+    justify-content: space-around;
+}
+input#whatsapp{
+    width: 25em;
+    height: 2em;
+    margin-right: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 2em;
+    color: black;
+    font-size: 1.5em;
+    border: none;
+}
+input#btn{
+    height: 3em;
+    width: 6em;
+    background: #000;
+    border: 0;
+    border-radius: 2em;
+    font-size: 1.01em;
+}
+::placeholder{
+    font-size: 1.01em;
+    text-align: center;
+}
+input:active{
+    overflow: hidden;
+    border: none;
+}
